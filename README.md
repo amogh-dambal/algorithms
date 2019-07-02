@@ -1,2 +1,3 @@
-# algorithms
-library of C++ implementations of algorithms for sorting, searching, graph theory, computer geometry, and more
+# solutions
+library of C solutions to mathematical problems provided by project euler.
+
