@@ -1,7 +1,14 @@
-#include "multiples_of_3_and_5.h"
-#include "stdio.h"
+// this file is a test client
+// include the header file containing the problem in the line below
 
-int main()
+#include <stdio.h>
+
+int main(int argc, char** argv)
 {
-    printf("%d\n", sum_of_multiples());
+    int id;
+    if (argc > 1) 
+    {
+        // get id from command line
+    }
+    printf("solution to problem %d: %d\n", id, /* put function name here */)
 }
