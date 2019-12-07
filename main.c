@@ -5,7 +5,6 @@
 
 int main(int argc, char** argv)
 {
-    int id;
     if (argc > 1) 
     {
         // get id from command line
