@@ -11,21 +11,19 @@ const int fib() {
         f[0] = 0;
         f[1] = 1;
 
-        int i = 2;
-        int val;
+        int i = 1;
 
-        while (val < cap) {
+        while (f[i++] < cap) {
             /* resize */
             if (i >= sz) {
                 f = realloc(f, 2 * i * sizeof(int));
             }
             f[i] = f[i - 1] + f[i - 2];
-            val = f[i];
 
             if (f[i] < cap && f[i] % 2 == 0) {
                 sum += f[i];
             }
-            i++;
+
         }
     }
 
