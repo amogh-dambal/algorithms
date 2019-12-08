@@ -18,6 +18,4 @@ const long largest_fctr(const long N) {
         }
     }
     return i;
-
-
 }
